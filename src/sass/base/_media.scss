@@ -1,0 +1,150 @@
+@media (max-width: 375px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .promo {
+        padding: 21px 0 41px 0;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background: url('../../img/bg.png');
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 91px;
+        }
+        &__header{
+            font-weight: 700;
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        &__subheader {
+            margin-top: 17px;
+            font-weight: 500;
+            font-size: 21px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+        }
+        &__icons {
+            margin-top: 66px;
+            width: 360px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    }
+
+    .header {
+        align-items: center;    
+        &__logo {
+            width: 40%;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                display: block;
+                font-size: 11px;
+            }
+        }
+        &__contacts {
+            width: 78px;
+            .header__phone {
+                font-size: 12px;
+            }
+        
+           .button {
+            width: 77px;
+            height: 22px;
+            font-size: 7px;
+            }
+        }
+    }  
+    
+    .advantages__wrapper{
+        flex-direction: column;
+        .advantages_item {
+            margin-top: 25px;
+        }
+    }
+
+    .consultation {
+        max-width: 100%;
+        height: auto;
+        &__descr {
+            text-align: center;
+        }
+    .consultation__title {
+        font-size: 27px;
+        text-align: center;
+        line-height: 43px;
+        }
+
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    
+    
+    }
+
+    .slick-slide img {
+        width: 50%;
+        display: block;
+    }
+
+    .catalog__tab {
+        div{
+            font-size: 12px;
+        }
+       
+    }
+
+    .catalog__content_active {
+        margin-left: 33px;
+    }
+
+    .reviews {
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        &__about {
+            margin-top: 17px;
+        }
+    }
+
+    .reviews-block {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 68px;
+    
+    }
+    .overlay {
+        .modal{
+        &__close {
+            position: absolute;
+            top: 0;
+            right: 17px;
+            font-size: 37px;
+            line-height: 39px;
+            color: #c70101;
+            cursor: pointer;
+        }
+    }
+}
+
+    
+
+        
+       
+}
+
+    
+    
